@@ -36,7 +36,7 @@ def historical_stock_dividend(
     apikey: str, symbol: str
 ) -> typing.Optional[typing.List[typing.Dict]]:
     """
-    Query FMP /historical-price-full/stock_divident/ API
+    Query FMP /historical-price-full/stock_dividend/ API
 
     :param apikey: Your API key.
     :param symbol: Company ticker.
@@ -51,7 +51,7 @@ def historical_stock_split(
     apikey: str, symbol: str
 ) -> typing.Optional[typing.List[typing.Dict]]:
     """
-    Query FMP /historical-price-full/stock_divident/ API
+    Query FMP /historical-price-full/stock_dividend/ API
 
     :param apikey: Your API key.
     :param symbol: Company ticker.
